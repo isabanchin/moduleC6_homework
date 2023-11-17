@@ -1,0 +1,103 @@
+.total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    font-size: 12px;
+    margin: 0vh 10vw 1vh 10vw;
+    border-style: solid;
+    border-width: 4px;
+    border-color: lightblue;
+}
+
+.message-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1%;
+    width: 90%;
+}
+
+.inp {
+    flex: 1 1 75%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: lightblue;
+}
+
+.btn {
+    flex: 0 1 200px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    /* display: flex; */
+    margin-left: 10px;
+    padding: 10px 15px;
+    /* border-radius: 10px; */
+    line-height: 15px;
+    background: lightblue;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141, 150, 178, .3);
+    transform: scale(1.05);
+    font-weight: 800;
+}
+
+.chat-frame {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    overflow-y: auto;
+    margin-top: 1%;
+    width: 90%;
+    min-height: 150px;
+    /* padding: 10px; */
+    border-style: solid;
+    border-width: 4px;
+    border-color: lightblue;
+    font-family: Sans-Serif;
+    text-align: center;
+}
+
+.user-message {
+    align-self: end;
+    width: fit-content;
+    max-width: 80%;
+    margin: 1%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    padding: 5px;
+    border-color: lightblue;
+    text-align: center;
+    background-color: rgb(213, 236, 242);
+}
+
+.server-message {
+    align-self: start;
+    width: fit-content;
+    max-width: 80%;
+    margin: 1%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    padding: 5px;
+    border-color: lightblue;
+}
+
+.service-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.5%;
+    width: 90%;
+    font-family: Sans-Serif;
+    font-size: 12px;
+}
